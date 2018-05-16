@@ -1,7 +1,10 @@
 var omit = require('lodash/omit'),
   React = require('react'),
   ReactDOM = require('react-dom'),
+  pt = require('prop-types'),
   qs = require('query-string');
+
+  const PropTypes = React.PropTypes || pt;
 
 
 var DEFAULT_PROPS = {
@@ -16,9 +19,9 @@ var DEFAULT_PROPS = {
 
 var Img = React.createClass({
   propTypes: {
-    src: React.PropTypes.string.isRequired,
-    usePlaceholder: React.PropTypes.bool,
-    placeholder: React.PropTypes.object,
+    src: PropTypes.string.isRequired,
+    usePlaceholder: PropTypes.bool,
+    placeholder: PropTypes.object,
   },
 
   getDefaultProps: function() {

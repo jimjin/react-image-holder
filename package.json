@@ -36,6 +36,7 @@
   "dependencies": {
     "holderjs": "~2.8.1",
     "lodash": "~4.11.1",
-    "query-string": "~2.4.0"
+    "query-string": "~2.4.0",
+    "prop-types": "~15.6.1"
   }
 }
