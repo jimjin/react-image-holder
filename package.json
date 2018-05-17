@@ -1,7 +1,7 @@
 {
   "name": "react-image-holder-new",
-  "version": "2.0.2",
-  "description": "React image component with offline placeholder fallbacks Fork from https://github.com/hiddentao/react-image-holder",
+  "version": "2.0.3",
+  "description": "React image component with offline placeholder fallbacks Fork from https://github.com/hiddentao/react-image-holder, and fixed Cannot read property 'string' of undefined error(After React 15 React.PropTypes move to 'prop-types' package.",
   "main": "index.js",
   "scripts": {
     "build": "gulp",
