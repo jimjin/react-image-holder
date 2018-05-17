@@ -1,7 +1,7 @@
 {
-  "name": "react-image-holder",
-  "version": "2.0.1",
-  "description": "React image component with offline placeholder fallbacks",
+  "name": "react-image-holder-new",
+  "version": "2.0.2",
+  "description": "React image component with offline placeholder fallbacks Fork from https://github.com/hiddentao/react-image-holder",
   "main": "index.js",
   "scripts": {
     "build": "gulp",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hiddentao/react-image-holder.git"
+    "url": "https://github.com/jimjin/react-image-holder"
   },
   "keywords": [
     "react",
@@ -17,12 +17,12 @@
     "placeholder",
     "holder.js"
   ],
-  "author": "Ramesh Nair <ram@hiddentao.com>",
+  "author": "Jim Jin <jim.jin2006@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hiddentao/react-image-holder/issues"
+    "url": "https://github.com/jimjin/react-image-holder/issues"
   },
-  "homepage": "https://github.com/hiddentao/react-image-holder",
+  "homepage": "https://github.com/jimjin/react-image-holder",
   "devDependencies": {
     "gulp": "~3.8.1",
     "gulp-babel": "~5.2.0",
